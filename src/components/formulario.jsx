@@ -28,13 +28,11 @@ export default function Formulario({
       onSubmit={handleSubmit}
       className="md:w-100  h-svh w-9/12 flex flex-col justify-center mx-auto"
     >
-      <h1 className=" text-5xl font-bold mb-10 text-center">
-        Calculadora de Tiempo
-      </h1>
+      <h1 className=" text-5xl  mb-10 text-center">Calculadora de Tiempo</h1>
       <div className="mb-5">
         <label
           htmlFor="edad"
-          className="block mb-2 text-sm font-medium text-gray-900 "
+          className="block mb-2 text-sm font-medium text-gray-800 "
         >
           Tu edad
         </label>
@@ -51,7 +49,7 @@ export default function Formulario({
       <div className="mb-5">
         <label
           htmlFor="expectativa"
-          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          className="block mb-2 text-sm font-medium text-gray-800"
         >
           Tu expectativa de vida
         </label>
@@ -67,7 +65,7 @@ export default function Formulario({
 
       <button
         type="submit"
-        className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center "
+        className="text-white bg-[#0066CC] hover:bg-[#005bb5] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center "
       >
         Calcular
       </button>

@@ -1,9 +1,22 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(../src/assets/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSansBold;
+  src: url(../src/assets/OpenSans-Bold.ttf);
+}
+
 @import "tailwindcss";
 
 html {
   background-color: #e6f2ff;
   color: #0066cc;
   display: flex;
-
+  font-family: "OpenSans", sans-serif;
   justify-content: center;
+}
+
+h1 {
+  font-family: "OpenSansBold", sans-serif;
 }

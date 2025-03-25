@@ -10,7 +10,7 @@ function Resultados({ añosVividos, expectativa, setMostrarFormulario }) {
 
   return (
     <>
-      <div className="min-h-screen h-svh w-screen flex flex-col justify-center p-6 ">
+      <div className=" h-svh w-screen flex flex-col justify-center p-6 ">
         {/* Leyenda */}
 
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 pb-5">
@@ -43,18 +43,9 @@ function Resultados({ añosVividos, expectativa, setMostrarFormulario }) {
           </div>
         </div>
 
-        {/* Botón de recalcular
-        <div className="flex justify-center pb-6">
-          <button
-            onClick={() => setMostrarFormulario(true)}
-            className="px-4 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300"
-          >
-            Recalcular
-          </button>
-        </div> */}
         <button
           onClick={() => setMostrarFormulario(true)}
-          className="text-white mt-4 bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full   sm:w-1/10 px-5 py-2.5 text-center mx-auto"
+          className="text-white mt-4 bg-[#0066CC] hover:bg-[#005bb5] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full   sm:w-1/10 px-5 py-2.5 text-center mx-auto"
         >
           Recalcular
         </button>
