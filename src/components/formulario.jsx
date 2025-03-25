@@ -26,10 +26,10 @@ export default function Formulario({
   return (
     <form
       onSubmit={handleSubmit}
-      className="md:w-100  h-svh w-9/12 flex flex-col justify-center mx-auto"
+      className="md:w-100  h-svh w-9/12 flex flex-col  mx-auto"
     >
-      <h1 className=" text-5xl  mb-10 text-center">Calculadora de Tiempo</h1>
-      <div className="mb-5">
+      <h1 className=" text-5xl  my-10 text-center">Calculadora de Tiempo</h1>
+      <div className="my-5">
         <label
           htmlFor="edad"
           className="block mb-2 text-sm font-medium text-gray-800 "
