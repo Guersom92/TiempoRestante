@@ -1,10 +1,14 @@
 @font-face {
   font-family: OpenSans;
-  src: url(../src/assets/OpenSans-Regular.ttf);
+  src: url("../src/assets/OpenSans-Regular.woff2");
+  font-weight: 400;
+  font-display: swap;
 }
 @font-face {
   font-family: OpenSansBold;
-  src: url(../src/assets/OpenSans-Bold.ttf);
+  src: url("../src/assets/OpenSans-Bold.woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 
 @import "tailwindcss";
@@ -14,11 +18,14 @@ html {
   color: #0066cc;
   display: flex;
   font-family: "OpenSans", sans-serif;
+  font-weight: 400;
   justify-content: center;
 }
 
-h1 {
+h1,
+button {
   font-family: "OpenSansBold", sans-serif;
+  font-weight: 700;
 }
 
 ::-webkit-scrollbar {
@@ -34,7 +41,10 @@ h1 {
   background: #80cbc4; /* Barra deslizante */
   border-radius: 10px;
 }
-
+* {
+  scrollbar-width: thin; /* Hace la scrollbar más delgada */
+  scrollbar-color: #80cbc4 #e3f2fd; /* Color del thumb y del track */
+}
 ::-webkit-scrollbar-thumb:hover {
   background: #4db6ac; /* Efecto hover */
 }
